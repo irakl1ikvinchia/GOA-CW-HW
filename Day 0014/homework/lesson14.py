@@ -20,12 +20,3 @@
 #     number.append(i)
 
 # print(number[-12])
-
-
-# N4
-
-
-
-
-# N5
-
