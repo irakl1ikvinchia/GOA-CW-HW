@@ -83,3 +83,39 @@ def descending_order(num):
     res_list.sort(reverse = True)
     
     return int("".join(res_list))
+
+
+# N6
+# If we list all the natural numbers 
+# below 10 that are multiples of 3 
+# or 5, we get 3, 5, 6 and 9. The 
+# sum of these multiples is 23.
+
+def solution(num):
+    sum = 0
+    for i in range(num):
+        if i % 3 == 0 or i % 5 == 0:
+            sum += i
+    return sum
+
+
+# N7
+# You probably know the "like" system 
+# from Facebook and other pages. 
+# People can "like" blog posts, 
+# pictures or other items. We want 
+# to create the text that should be 
+# displayed next to such an item.
+
+def likes(names):
+    if names == []:
+        return "no one likes this"
+    elif len(names) == 1:
+        return names[0] + " likes this"
+    elif len(names) == 2:
+        return names[0] + " and " + names[1] + " like this"
+    elif len(names) == 3:
+        return names[0] + ", " + names[1] + " and " + names[2] + " like this"
+    else:
+        return names[0] + ", " + names[1] + " and " + str(len(names) - 2) + " others like this"
+    
