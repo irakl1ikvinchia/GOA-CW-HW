@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 46, 46);
+}
+
+.div1 img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.div1{
+    margin: 200px 100px;
+    border: 2px solid white;
+    text-align: center;
+    width: 400px;
+    height: 270px;
+    padding: 20px;
+    color: white;
+}
+
+.div1 button{
+    margin-right: 2000px;
+    background-color: brown;
+}
+
+.div1 h1{
+    color: brown;
+}
