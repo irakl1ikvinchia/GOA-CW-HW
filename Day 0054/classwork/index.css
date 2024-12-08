@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(4, 100, 4);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.city0{
+    background-image: url(image/my-sity.jpg); 
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 550px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city1 h2{
+    font-size: 30px;
+}
+
+.city1 p{
+    font-size: 20px;
+}
+
+.city1{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
