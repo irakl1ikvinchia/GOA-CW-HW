@@ -1,0 +1,204 @@
+body{
+    background-color: rgb(160, 160, 160);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.city01{
+    background-image: url(image/my-sity.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 280px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city0 h2{
+    font-size: 30px;
+}
+
+.city0 p{
+    font-size: 20px;
+}
+
+.city0{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
+
+.city02{
+    background-image: url(image/zugdidi.webp); 
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city2 h2{
+    font-size: 30px;
+}
+
+.city2 p{
+    font-size: 20px;
+}
+
+.city2{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
+
+.city03{
+    background-image: url(image/quteisi.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city3 h2{
+    font-size: 30px;
+}
+
+.city3 p{
+    font-size: 20px;
+}
+
+.city3{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
+
+
+.onest-city{
+    display: flex;
+}
+
+.city04{
+    background-image: url(image/lagodekhi.jpeg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 280px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city4 h2{
+    font-size: 30px;
+}
+
+.city4 p{
+    font-size: 20px;
+}
+
+.city4{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
+
+.city05{
+    background-image: url(image/senaki.jpg); 
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city5 h2{
+    font-size: 30px;
+}
+
+.city5 p{
+    font-size: 20px;
+}
+
+.city5{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
+
+.city06{
+    background-image: url(image/tbilisi.webp); 
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 7px 40px black;
+}
+
+.city6 h2{
+    font-size: 30px;
+}
+
+.city6 p{
+    font-size: 20px;
+}
+
+.city6{
+    height: 100%;
+    color: rgb(100, 255, 100);
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgba(14, 48, 14, 0.3);
+}
+
+.second-sitys{
+    display: flex;
+}
