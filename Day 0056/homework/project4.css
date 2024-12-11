@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://st.depositphotos.com/1003860/4109/i/450/depositphotos_41099491-stock-photo-crumpled-handmade-paper-grunge-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.children1{
+    color: white;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.children1 button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(89, 89, 225);
+    color: white;
+    margin-top: -5px;
+}
+
+.children2 h1{
+    color: white;
+    text-align: center;
+    margin-top: 180px;
+    font-size: 70px;
+}
+
+input{
+    margin-left: 470px;
+    width: 600px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: 1px solid white;
+    padding-left: 20px;
+}
+
+.children3{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
