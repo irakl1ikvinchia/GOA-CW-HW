@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    
+    
+}
+
+.child1{
+    border: 2px solid yellow;
+    background-color: red;
+    grid-column: 1 / 400;
+}
+
+.child2{
+    border: 2px solid yellow;
+    background-color: red;
+    grid-column: 1 / 70;
+    
+}
+
+.child3{
+    border: 2px solid yellow;
+    background-color: red;
+    grid-column: 1 / 150;
+}
+
+.child4{
+    border: 2px solid yellow;
+    background-color: red;
+    grid-column: 1 / 30;
+}
+
+.child5{
+    border: 2px solid yellow;
+    background-color: red;
+    grid-column: 1 / 100;
+}
+
+.child6{
+    border: 2px solid yellow;
+    background-color: red;
+    grid-column: 1 / 350;
+}
+
