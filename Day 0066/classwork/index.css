@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(57, 57, 57);
+    border-radius: 5px;
+    margin-top: 40vh;
+    margin-left: 80vh;
+    box-shadow: 0px 0px 25px;
+    transition: 0.25s;
+}
+
+.box:hover{
+    transform: rotate(90deg) ;
+    width: 300px;
+    box-shadow: 0px 0px 50px;
+    color: blue;
+}
