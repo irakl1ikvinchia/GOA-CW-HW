@@ -1,0 +1,1 @@
+# gakvetili daeTmo jgufur samushaos
