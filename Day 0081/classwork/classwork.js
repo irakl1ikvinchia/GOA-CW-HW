@@ -1,72 +1,72 @@
-// // N1 
+// N1 
 
-// function evenSum(border){
-//     let sum = 0
-//     for(let i = 0; i <= border; i ++){
-//         if(i % 2 == 0){
-//             sum += i
-//         }
-//         return sum
-//     }
-// }
-
-
-// // N2
-
-// function reversNum(numbers){
-//     for(let i = 0; i <= numbers; i --){
-//         console.log(i)
-//     }
-// }
+function evenSum(border){
+    let sum = 0
+    for(let i = 0; i <= border; i ++){
+        if(i % 2 == 0){
+            sum += i
+        }
+        return sum
+    }
+}
 
 
-// // N3
+// N2
 
-// function evenNum(number){
-//     for(let i = 0; i <= number; i+2){
-//         console.log(i)
-//     }
-// }
-
-
-// // N4
-
-// function generateEven(border){
-//     numList = [];
-//     for(let i = 0; i <= border; i ++){
-//         numList.push(i)
-//     }
-//     return numList
-// }
-
-// function calculateSum(numList){
-//     let sum = 0;
-//     for(let ii = 0; ii <= numList; ii ++){
-//         sum += ii
-//     }
-//     return sum
-// }
+function reversNum(numbers){
+    for(let i = 0; i <= numbers; i --){
+        console.log(i)
+    }
+}
 
 
-// // N5
+// N3
 
-// let numbersList = []
+function evenNum(number){
+    for(let i = 0; i <= number; i+2){
+        console.log(i)
+    }
+}
 
-// for (let i = 0; i < 10; i ++){
-//     let valueType = {
-//         value: i,
-//         type: "",
-//     }
-//     if (i % 2 === 0){
-//         valueType.type = "Even";
-//     } else {
-//         valueType,type = "Odd"
-//     }
 
-//     numbersList.push(valueType);
-// }
+// N4
 
-// console.log(numbersList)
+function generateEven(border){
+    numList = [];
+    for(let i = 0; i <= border; i ++){
+        numList.push(i)
+    }
+    return numList
+}
+
+function calculateSum(numList){
+    let sum = 0;
+    for(let ii = 0; ii <= numList; ii ++){
+        sum += ii
+    }
+    return sum
+}
+
+
+// N5
+
+let numbersList = []
+
+for (let i = 0; i < 10; i ++){
+    let valueType = {
+        value: i,
+        type: "",
+    }
+    if (i % 2 === 0){
+        valueType.type = "Even";
+    } else {
+        valueType,type = "Odd"
+    }
+
+    numbersList.push(valueType);
+}
+
+console.log(numbersList)
 
 
 // // N6
