@@ -15,3 +15,16 @@ carList.unshift("BMW")
 carList.splice(1, 2)
 
 console.log(carList)
+
+
+
+const carLists = ["BMW", "TOYOTA", "AUDI", "PORSCHE", "TOYOTA", "MB"];
+
+console.log(carLists.indexOf("TOYOTA"));
+console.log(carLists.indexOf("GG"));
+
+console.log(carLists.lastIndexOf("TOYOTA"));
+console.log(carLists.lastIndexOf("GG"));
+
+console.log(carLists.includes("TOYOTA"));
+console.log(carLists.includes("GG"));
