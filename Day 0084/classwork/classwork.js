@@ -28,3 +28,22 @@ console.log(carLists.lastIndexOf("GG"));
 
 console.log(carLists.includes("TOYOTA"));
 console.log(carLists.includes("GG"));
+
+
+
+const numbers = [1,5,3,23,34];
+
+numbers.sort(function(a, b){
+    return b - a;
+})
+
+console.log(numbers)
+
+
+const numberss = [1,5,3,23,34];
+
+numberss.sort(function(a, b){
+    return a - b;
+})
+
+console.log(numberss)
