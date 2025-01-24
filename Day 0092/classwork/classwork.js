@@ -23,3 +23,16 @@ const saySomething = hmmm => {
 }
 
 console.log(saySomething("Learning javascript"))
+
+
+// N4
+
+const evenOrOdd = num => {
+    if (num % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd";
+    }
+}
+
+console.log(evenOrOdd(5))
