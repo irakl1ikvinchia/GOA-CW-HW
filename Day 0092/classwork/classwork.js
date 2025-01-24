@@ -14,3 +14,12 @@ const sum = (num1, num2) => {
 }
 
 console.log(sum (44,4))
+
+
+// N3
+
+const saySomething = hmmm => {
+    return hmmm;
+}
+
+console.log(saySomething("Learning javascript"))
