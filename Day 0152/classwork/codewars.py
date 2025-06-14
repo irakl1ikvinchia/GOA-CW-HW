@@ -17,3 +17,7 @@
 #     strength = 1000 * (0.99 ** age)
 
 #     return "Safe!" if strength >= magnitude else "Needs Reinforcement!"
+
+
+# def get_ascii(c):
+#     return ord(c)
