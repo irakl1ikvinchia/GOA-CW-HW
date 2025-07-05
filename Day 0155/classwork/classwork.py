@@ -8,3 +8,9 @@
 #         return wins_against[opponent_move]
 #     else:
 #         return loses_against[opponent_move]
+
+
+
+# def two_oldest_ages(ages):
+#     agess = sorted(ages)
+#     return agess[-2:]
