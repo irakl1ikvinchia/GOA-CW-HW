@@ -14,3 +14,11 @@
 # def two_oldest_ages(ages):
 #     agess = sorted(ages)
 #     return agess[-2:]
+
+
+# def halving_sum(n): 
+#     total = 0
+#     while n > 0:
+#         total += n
+#         n //= 2
+#     return total
